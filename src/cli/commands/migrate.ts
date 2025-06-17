@@ -8,7 +8,7 @@ import { MigrationAnalyzer } from '../../migration/migration-analyzer';
 import { RollbackManager } from '../../migration/rollback-manager';
 import { MigrationStrategy } from '../../migration/types';
 import { logger } from '../../migration/logger';
-import * as path from 'path';
+import * as path from 'node:path';
 import chalk from "npm:chalk@^4.1.2";
 
 export function createMigrateCommand(): Command {
