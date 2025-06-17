@@ -5,5 +5,13 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROJECT_ROOT="$( cd "$SCRIPT_DIR/.." && pwd )"
 
-# Run the CLI using deno
-exec deno run --allow-all "$PROJECT_ROOT/src/cli/index.ts" "$@"
+# Add Deno to PATH if needed
+if [ -d "$HOME/.deno/bin" ]; then
+    export PATH="$HOME/.deno/bin:$PATH"
+fi
+if [ -d "/home/codespace/.deno/bin" ]; then
+    export PATH="/home/codespace/.deno/bin:$PATH"
+fi
+
+# Run the CLI with Deno, filtering out deprecation warnings
+exec deno run --allow-all --no-check "$PROJECT_ROOT/src/cli/main.ts" "$@" 2>&1 | grep -v "Import assertions are deprecated"

@@ -1,21 +1,28 @@
-# Claude Code Configuration - SPARC Development Environment
+# Claude Code Configuration
 
-## Project Overview
-This project uses the SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) methodology for systematic Test-Driven Development with AI assistance through Claude-Flow orchestration.
-
-## SPARC Development Commands
-
-### Core SPARC Commands
-- `npx claude-flow sparc modes`: List all available SPARC development modes
-- `npx claude-flow sparc run <mode> "<task>"`: Execute specific SPARC mode for a task
-- `npx claude-flow sparc tdd "<feature>"`: Run complete TDD workflow using SPARC methodology
-- `npx claude-flow sparc info <mode>`: Get detailed information about a specific mode
-
-### Standard Build Commands
-- `npm run build`: Build the project
-- `npm run test`: Run the test suite
-- `npm run lint`: Run linter and format checks
+## Build Commands
+- `npm run build`: Build the project using Deno compile
+- `npm run test`: Run the full test suite
+- `npm run lint`: Run ESLint and format checks
 - `npm run typecheck`: Run TypeScript type checking
+- `./claude-flow start`: Start the orchestration system
+- `./claude-flow --help`: Show all available commands
+
+## Code Style Preferences
+- Use ES modules (import/export) syntax, not CommonJS (require)
+- Destructure imports when possible (e.g., `import { foo } from 'bar'`)
+- Use TypeScript for all new code
+- Follow existing naming conventions (camelCase for variables, PascalCase for classes)
+- Add JSDoc comments for public APIs
+- Use async/await instead of Promise chains
+- Prefer const/let over var
+
+## Workflow Guidelines
+- Always run typecheck after making code changes
+- Run tests before committing changes
+- Use meaningful commit messages following conventional commits
+- Create feature branches for new functionality
+- Ensure all tests pass before merging
 
 ## SPARC Methodology Workflow
 
@@ -338,7 +345,7 @@ feat: implement complete user authentication system with JWT # Too long
 1. **Review before committing**: Use `git diff --staged` to review changes
 2. **Keep commits focused**: One concept per commit
 3. **Write for future readers**: Clear messages help debugging
-4. **Test before committing**: Run `pnpm test` and `pnpm typecheck`
+4. **Test before committing**: Run `npm test` and `npm run typecheck`
 5. **Don't commit generated files**: Build artifacts, node_modules, etc.
 6. **Squash WIP commits**: Clean up history before merging
 
@@ -352,6 +359,13 @@ instead of top level for better component isolation.
 
 Breaking: Analysis response structure changed, update frontend parsers
 ```
+
+### IMPORTANT: Commit Attribution Rules
+- **NEVER** include "Generated with [Claude Code]" footers
+- **NEVER** include "Co-Authored-By: Claude" signatures
+- **NO** AI-generated attribution in commits
+- Keep commits clean and professional
+- Focus on the code changes, not the tools used
 
 ## Troubleshooting
 
@@ -377,21 +391,22 @@ npx claude-flow sparc info <mode-name>
 ```
 
 ## Project Architecture
-
-This SPARC-enabled project follows a systematic development approach:
-- **Clear separation of concerns** through modular design
-- **Test-driven development** ensuring reliability and maintainability
-- **Iterative refinement** for continuous improvement
-- **Comprehensive documentation** for team collaboration
-- **AI-assisted development** through specialized SPARC modes
+This is a Claude-Flow AI agent orchestration system with the following components:
+- **CLI Interface**: Command-line tools for managing the system
+- **Orchestrator**: Core engine for coordinating agents and tasks
+- **Memory System**: Persistent storage and retrieval of information
+- **Terminal Management**: Automated terminal session handling
+- **MCP Integration**: Model Context Protocol server for Claude integration
+- **Agent Coordination**: Multi-agent task distribution and management
 
 ## Important Notes
+- Use `claude --dangerously-skip-permissions` for unattended operation
+- The system supports both daemon and interactive modes
+- Memory persistence is handled automatically
+- All components are event-driven for scalability
 
-- Always run tests before committing (`npm run test`)
-- Use SPARC memory system to maintain context across sessions
-- Follow the Red-Green-Refactor cycle during TDD phases
-- Document architectural decisions in memory for future reference
-- Regular security reviews for any authentication or data handling code
-- Claude Code slash commands provide quick access to SPARC modes
-
-For more information about SPARC methodology, see: https://github.com/ruvnet/claude-code-flow/docs/sparc.md
+## Debugging
+- Check logs in `./claude-flow.log`
+- Use `./claude-flow status` to check system health
+- Monitor with `./claude-flow monitor` for real-time updates
+- Verbose output available with `--verbose` flag on most commands

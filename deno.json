@@ -82,5 +82,6 @@
     "bin/",
     "test-results/",
     "coverage/"
-  ]
+  ],
+  "vendor": false
 }

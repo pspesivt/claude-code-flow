@@ -5,5 +5,35 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROJECT_ROOT="$( cd "$SCRIPT_DIR/.." && pwd )"
 
-# Run the CLI using deno
-exec deno run --allow-all "$PROJECT_ROOT/src/cli/main.ts" "$@"
+# Check if Deno is installed
+check_deno() {
+    # Check in common locations
+    if [ -x "$HOME/.deno/bin/deno" ]; then
+        echo "$HOME/.deno/bin/deno"
+        return 0
+    elif command -v deno >/dev/null 2>&1; then
+        echo "deno"
+        return 0
+    else
+        return 1
+    fi
+}
+
+DENO_PATH=$(check_deno)
+
+if [ $? -ne 0 ]; then
+    echo "Error: Deno is not installed."
+    echo ""
+    echo "Please install Deno first:"
+    echo "  curl -fsSL https://deno.land/x/install/install.sh | sh"
+    echo ""
+    echo "Or on Windows:"
+    echo "  irm https://deno.land/install.ps1 | iex"
+    exit 1
+fi
+
+# Use the simple CLI JavaScript file which works well (fork change)
+CLI_PATH="$PROJECT_ROOT/src/cli/simple-cli.js"
+
+# Run the CLI with Deno
+exec "$DENO_PATH" run --allow-all --no-check "$CLI_PATH" "$@"
