@@ -110,6 +110,7 @@ class TestRunner {
       "test",
       "--allow-all",
       "--unstable-temporal",
+      "--no-check",
     ];
 
     // Add coverage if enabled

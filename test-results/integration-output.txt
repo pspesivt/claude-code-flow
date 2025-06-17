@@ -1,0 +1,519 @@
+Uncaught error from ./tests/integration/mcp.test.ts [0m[31mFAILED[0m
+Uncaught error from ./tests/integration/mcp-integration.test.ts [0m[31mFAILED[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:28.423Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... distributed memory coordination ... should coordinate memory operations across agents ... [0m[31mFAILED[0m [0m[38;5;245m(2ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... distributed memory coordination ... should handle memory conflicts using coordination ... [0m[31mFAILED[0m [0m[38;5;245m(19ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... distributed memory coordination ... should coordinate cross-agent memory queries ... [0m[31mFAILED[0m [0m[38;5;245m(2ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... distributed memory coordination ... [0m[31mFAILED[0m (due to 3 failed steps) [0m[38;5;245m(23ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... resource coordination with memory backing ... should use memory to track resource allocation history ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... resource coordination with memory backing ... should coordinate deadlock detection with memory logging ... [0m[31mFAILED[0m [0m[38;5;245m(2ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... resource coordination with memory backing ... [0m[31mFAILED[0m (due to 2 failed steps) [0m[38;5;245m(3ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... message coordination with memory persistence ... should persist and coordinate inter-agent messages ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... message coordination with memory persistence ... should handle message delivery failures with memory logging ... [0m[31mFAILED[0m [0m[38;5;245m(2ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... message coordination with memory persistence ... [0m[31mFAILED[0m (due to 2 failed steps) [0m[38;5;245m(3ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... conflict resolution integration ... should resolve memory conflicts using coordination locks ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... conflict resolution integration ... should coordinate distributed memory cleanup ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... conflict resolution integration ... [0m[31mFAILED[0m (due to 2 failed steps) [0m[38;5;245m(2ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... performance and scalability ... should handle high-volume memory operations with coordination ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts =>[0m Memory-Coordination Integration ... performance and scalability ... [0m[31mFAILED[0m (due to 1 failed step) [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/memory-coordination.test.ts => [0mMemory-Coordination Integration ... [0m[31mFAILED[0m (due to 5 failed steps) [0m[38;5;245m(33ms)[0m
+Uncaught error from ./tests/integration/full-system.test.ts [0m[31mFAILED[0m
+Uncaught error from ./tests/integration/orchestrator-terminal.test.ts [0m[31mFAILED[0m
+Uncaught error from ./tests/integration/start-command.test.ts [0m[31mFAILED[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... CLI imports ... should export startCommand from main CLI index ... [0m[31mFAILED[0m [0m[38;5;245m(94ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... CLI imports ... should export startCommand from commands/start.ts ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... CLI imports ... should export startCommand from simple-commands ... [0m[32mok[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... CLI imports ... [0m[31mFAILED[0m (due to 2 failed steps) [0m[38;5;245m(97ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... simple-commands functionality ... should handle help flag ... [0m[32mok[0m [0m[38;5;245m(0ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... simple-commands functionality ... should show UI option in help ... [0m[32mok[0m [0m[38;5;245m(0ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... simple-commands functionality ... should handle daemon flag ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... simple-commands functionality ... [0m[31mFAILED[0m (due to 1 failed step) [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... command options preservation ... should support all original options ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... command options preservation ... [0m[31mFAILED[0m (due to 1 failed step) [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... event listeners setup ... should setup event listeners as before ... [0m[31mFAILED[0m [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts =>[0m Start Command Backward Compatibility ... event listeners setup ... [0m[31mFAILED[0m (due to 1 failed step) [0m[38;5;245m(1ms)[0m
+[0m[38;5;245m./tests/integration/start-compatibility.test.ts => [0mStart Command Backward Compatibility ... [0m[31mFAILED[0m (due to 4 failed steps) [0m[38;5;245m(100ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:28.570Z] DEBUG Native terminal initialized {"id":"native-term_mc007xq8_k3vu825ml","pid":74020,"shell":"zsh"}
+[2025-06-17T04:09:28.572Z] INFO Terminal process exited {"id":"native-term_mc007xq8_k3vu825ml","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:29.072Z] INFO Shutting down native terminal adapter
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mNativeAdapter - creates and destroys terminals ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mNativeAdapter - creates and destroys terminals ... [0m[31mFAILED[0m [0m[38;5;245m(650ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:29.073Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:29.203Z] DEBUG Native terminal initialized {"id":"native-term_mc007y83_tpgal9rb2","pid":74051,"shell":"zsh"}
+[2025-06-17T04:09:29.204Z] INFO Terminal process exited {"id":"native-term_mc007y83_tpgal9rb2","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:29.706Z] INFO Shutting down native terminal adapter
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mNativeAdapter - handles multiple shells ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mNativeAdapter - handles multiple shells ... [0m[31mFAILED[0m [0m[38;5;245m(633ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:29.707Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:29.721Z] INFO Initializing terminal pool {"maxSize":3,"recycleAfter":2}
+[2025-06-17T04:09:29.840Z] DEBUG Native terminal initialized {"id":"native-term_mc007ypm_m0sz7snw6","pid":74060,"shell":"zsh"}
+[2025-06-17T04:09:29.840Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc007ypm_m0sz7snw6"}
+[2025-06-17T04:09:29.840Z] DEBUG Native terminal initialized {"id":"native-term_mc007ypu_mxaixrw2v","pid":74061,"shell":"zsh"}
+[2025-06-17T04:09:29.840Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc007ypu_mxaixrw2v"}
+[2025-06-17T04:09:29.840Z] INFO Terminal pool initialized {"created":2}
+[2025-06-17T04:09:29.840Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc007ypm_m0sz7snw6","useCount":0}
+[2025-06-17T04:09:29.840Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc007ypu_mxaixrw2v","useCount":0}
+[2025-06-17T04:09:29.840Z] DEBUG Terminal returned to pool {"terminalId":"native-term_mc007ypm_m0sz7snw6","useCount":1}
+[2025-06-17T04:09:29.840Z] DEBUG Terminal returned to pool {"terminalId":"native-term_mc007ypu_mxaixrw2v","useCount":1}
+[2025-06-17T04:09:29.840Z] INFO Shutting down terminal pool
+[2025-06-17T04:09:29.842Z] INFO Terminal process exited {"id":"native-term_mc007ypu_mxaixrw2v","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:29.842Z] INFO Terminal process exited {"id":"native-term_mc007ypm_m0sz7snw6","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:30.343Z] INFO Shutting down native terminal adapter
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalPool - manages terminal lifecycle ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalPool - manages terminal lifecycle ... [0m[31mFAILED[0m [0m[38;5;245m(636ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:30.344Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:30.368Z] INFO Initializing terminal pool {"maxSize":2,"recycleAfter":2}
+[2025-06-17T04:09:30.491Z] DEBUG Native terminal initialized {"id":"native-term_mc007z7k_c1qea6zho","pid":74064,"shell":"zsh"}
+[2025-06-17T04:09:30.491Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc007z7k_c1qea6zho"}
+[2025-06-17T04:09:30.491Z] DEBUG Native terminal initialized {"id":"native-term_mc007z7y_8uq9gagm3","pid":74065,"shell":"zsh"}
+[2025-06-17T04:09:30.491Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc007z7y_8uq9gagm3"}
+[2025-06-17T04:09:30.491Z] INFO Terminal pool initialized {"created":2}
+[2025-06-17T04:09:30.491Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc007z7k_c1qea6zho","useCount":0}
+[2025-06-17T04:09:30.491Z] DEBUG Terminal returned to pool {"terminalId":"native-term_mc007z7k_c1qea6zho","useCount":1}
+[2025-06-17T04:09:30.491Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc007z7y_8uq9gagm3","useCount":0}
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalPool - recycles terminals after use count ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalPool - recycles terminals after use count ... [0m[31mFAILED[0m [0m[38;5;245m(149ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:30.494Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:30.615Z] DEBUG Native terminal initialized {"id":"native-term_mc007zbd_1t2e6uso2","pid":74067,"shell":"zsh"}
+[2025-06-17T04:09:30.616Z] DEBUG Initializing terminal session {"sessionId":"session_mc007zeg_vtgpx59vf","agentId":"test-1"}
+[2025-06-17T04:09:30.618Z] INFO Terminal session initialized {"sessionId":"session_mc007zeg_vtgpx59vf","agentId":"test-1"}
+[2025-06-17T04:09:30.618Z] DEBUG Executing command {"sessionId":"session_mc007zeg_vtgpx59vf","command":"echo \"Session test\""}
+[2025-06-17T04:09:30.618Z] DEBUG Command executed successfully {"sessionId":"session_mc007zeg_vtgpx59vf","outputLength":12}
+[2025-06-17T04:09:30.618Z] DEBUG Cleaning up terminal session {"sessionId":"session_mc007zeg_vtgpx59vf"}
+[2025-06-17T04:09:30.619Z] INFO Terminal process exited {"id":"native-term_mc007zbd_1t2e6uso2","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:31.120Z] INFO Shutting down native terminal adapter
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - manages command execution ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - manages command execution ... [0m[31mFAILED[0m [0m[38;5;245m(626ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:31.121Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:31.247Z] DEBUG Native terminal initialized {"id":"native-term_mc007zsw_sc94riirj","pid":74090,"shell":"zsh"}
+[2025-06-17T04:09:31.247Z] DEBUG Initializing terminal session {"sessionId":"session_mc007zvz_n3h43qc5w","agentId":"test-2"}
+[2025-06-17T04:09:31.248Z] INFO Terminal session initialized {"sessionId":"session_mc007zvz_n3h43qc5w","agentId":"test-2"}
+[2025-06-17T04:09:31.248Z] DEBUG Executing command {"sessionId":"session_mc007zvz_n3h43qc5w","command":"echo \"Line 1\""}
+[2025-06-17T04:09:31.249Z] DEBUG Command executed successfully {"sessionId":"session_mc007zvz_n3h43qc5w","outputLength":6}
+[2025-06-17T04:09:31.249Z] DEBUG Executing command {"sessionId":"session_mc007zvz_n3h43qc5w","command":"echo \"Line 2\""}
+[2025-06-17T04:09:31.249Z] DEBUG Command executed successfully {"sessionId":"session_mc007zvz_n3h43qc5w","outputLength":6}
+[2025-06-17T04:09:31.351Z] DEBUG Cleaning up terminal session {"sessionId":"session_mc007zvz_n3h43qc5w"}
+[2025-06-17T04:09:31.353Z] INFO Terminal process exited {"id":"native-term_mc007zsw_sc94riirj","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:31.854Z] INFO Shutting down native terminal adapter
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - handles output streaming ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - handles output streaming ... [0m[31mFAILED[0m [0m[38;5;245m(734ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:31.856Z] INFO Initializing terminal manager...
+[2025-06-17T04:09:31.856Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:31.881Z] INFO Initializing terminal pool {"maxSize":2,"recycleAfter":3}
+[2025-06-17T04:09:31.999Z] DEBUG Native terminal initialized {"id":"native-term_mc0080dl_6zumt575h","pid":74095,"shell":"zsh"}
+[2025-06-17T04:09:31.999Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc0080dl_6zumt575h"}
+[2025-06-17T04:09:31.999Z] DEBUG Native terminal initialized {"id":"native-term_mc0080du_9pbgrs2q6","pid":74096,"shell":"zsh"}
+[2025-06-17T04:09:31.999Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc0080du_9pbgrs2q6"}
+[2025-06-17T04:09:31.999Z] INFO Terminal pool initialized {"created":2}
+[2025-06-17T04:09:31.999Z] INFO Terminal manager initialized
+[2025-06-17T04:09:32.000Z] DEBUG Spawning terminal {"agentId":"manager-test"}
+[2025-06-17T04:09:32.000Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc0080dl_6zumt575h","useCount":0}
+[2025-06-17T04:09:32.000Z] DEBUG Initializing terminal session {"sessionId":"session_mc0080gw_3nkt0lhfk","agentId":"manager-test"}
+[2025-06-17T04:09:32.001Z] INFO Terminal session initialized {"sessionId":"session_mc0080gw_3nkt0lhfk","agentId":"manager-test"}
+[2025-06-17T04:09:32.001Z] INFO Terminal spawned {"terminalId":"session_mc0080gw_3nkt0lhfk","agentId":"manager-test"}
+[2025-06-17T04:09:32.001Z] DEBUG Executing command {"sessionId":"session_mc0080gw_3nkt0lhfk","command":"echo \"Manager test\""}
+[2025-06-17T04:09:32.001Z] DEBUG Command executed successfully {"sessionId":"session_mc0080gw_3nkt0lhfk","outputLength":12}
+[2025-06-17T04:09:32.002Z] DEBUG Terminating terminal {"terminalId":"session_mc0080gw_3nkt0lhfk"}
+[2025-06-17T04:09:32.002Z] DEBUG Cleaning up terminal session {"sessionId":"session_mc0080gw_3nkt0lhfk"}
+[2025-06-17T04:09:32.002Z] DEBUG Terminal returned to pool {"terminalId":"native-term_mc0080dl_6zumt575h","useCount":1}
+[2025-06-17T04:09:32.002Z] INFO Terminal terminated {"terminalId":"session_mc0080gw_3nkt0lhfk"}
+[2025-06-17T04:09:32.002Z] INFO Shutting down terminal manager...
+[2025-06-17T04:09:32.002Z] INFO Shutting down terminal pool
+[2025-06-17T04:09:32.003Z] INFO Terminal process exited {"id":"native-term_mc0080du_9pbgrs2q6","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:32.003Z] INFO Terminal process exited {"id":"native-term_mc0080dl_6zumt575h","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:32.504Z] INFO Shutting down native terminal adapter
+[2025-06-17T04:09:32.504Z] INFO Terminal manager shutdown complete
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - complete workflow ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - complete workflow ... [0m[31mFAILED[0m [0m[38;5;245m(650ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:32.506Z] INFO Initializing terminal manager...
+[2025-06-17T04:09:32.506Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:32.531Z] INFO Initializing terminal pool {"maxSize":2,"recycleAfter":3}
+[2025-06-17T04:09:32.652Z] DEBUG Native terminal initialized {"id":"native-term_mc0080vn_y9yfn9hab","pid":74100,"shell":"zsh"}
+[2025-06-17T04:09:32.652Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc0080vn_y9yfn9hab"}
+[2025-06-17T04:09:32.652Z] DEBUG Native terminal initialized {"id":"native-term_mc0080vz_2ewxn4fqw","pid":74101,"shell":"zsh"}
+[2025-06-17T04:09:32.652Z] DEBUG Created pooled terminal {"terminalId":"native-term_mc0080vz_2ewxn4fqw"}
+[2025-06-17T04:09:32.652Z] INFO Terminal pool initialized {"created":2}
+[2025-06-17T04:09:32.652Z] INFO Terminal manager initialized
+[2025-06-17T04:09:32.652Z] DEBUG Spawning terminal {"agentId":"maintenance-test"}
+[2025-06-17T04:09:32.652Z] DEBUG Terminal acquired from pool {"terminalId":"native-term_mc0080vn_y9yfn9hab","useCount":0}
+[2025-06-17T04:09:32.652Z] DEBUG Initializing terminal session {"sessionId":"session_mc0080z0_soeax09r2","agentId":"maintenance-test"}
+[2025-06-17T04:09:32.653Z] INFO Terminal session initialized {"sessionId":"session_mc0080z0_soeax09r2","agentId":"maintenance-test"}
+[2025-06-17T04:09:32.653Z] INFO Terminal spawned {"terminalId":"session_mc0080z0_soeax09r2","agentId":"maintenance-test"}
+[2025-06-17T04:09:32.653Z] DEBUG Performing terminal manager maintenance
+[2025-06-17T04:09:32.653Z] DEBUG Performing terminal pool maintenance
+[2025-06-17T04:09:32.653Z] DEBUG Terminal manager maintenance completed
+[2025-06-17T04:09:32.653Z] DEBUG Terminating terminal {"terminalId":"session_mc0080z0_soeax09r2"}
+[2025-06-17T04:09:32.653Z] DEBUG Cleaning up terminal session {"sessionId":"session_mc0080z0_soeax09r2"}
+[2025-06-17T04:09:32.654Z] DEBUG Terminal returned to pool {"terminalId":"native-term_mc0080vn_y9yfn9hab","useCount":1}
+[2025-06-17T04:09:32.654Z] INFO Terminal terminated {"terminalId":"session_mc0080z0_soeax09r2"}
+[2025-06-17T04:09:32.654Z] INFO Shutting down terminal manager...
+[2025-06-17T04:09:32.654Z] INFO Shutting down terminal pool
+[2025-06-17T04:09:32.654Z] INFO Terminal process exited {"id":"native-term_mc0080vn_y9yfn9hab","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:32.654Z] INFO Terminal process exited {"id":"native-term_mc0080vz_2ewxn4fqw","code":143,"signal":"SIGTERM"}
+[2025-06-17T04:09:33.156Z] INFO Shutting down native terminal adapter
+[2025-06-17T04:09:33.156Z] INFO Terminal manager shutdown complete
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - handles maintenance ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - handles maintenance ... [0m[31mFAILED[0m [0m[38;5;245m(651ms)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:09:33.157Z] INFO Initializing terminal manager...
+[2025-06-17T04:09:33.157Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:09:33.173Z] INFO Initializing terminal pool {"maxSize":0,"recycleAfter":3}
+[2025-06-17T04:09:33.173Z] INFO Terminal pool initialized {"created":0}
+[2025-06-17T04:09:33.173Z] INFO Terminal manager initialized
+[2025-06-17T04:09:33.174Z] DEBUG Spawning terminal {"agentId":"error-test"}
+[2025-06-17T04:09:33.174Z] INFO Terminal pool full, waiting for available terminal
+[2025-06-17T04:10:03.272Z] ERROR Failed to spawn terminal
+  Error: No terminal available in pool (timeout)
+  Stack: TerminalError: No terminal available in pool (timeout)
+    at TerminalPool.acquire (file:///Users/pavel/work/claude-code-flow/src/terminal/pool.ts:126:11)
+    at eventLoopTick (ext:core/01_core.js:217:9)
+    at async TerminalManager.spawnTerminal (file:///Users/pavel/work/claude-code-flow/src/terminal/manager.ts:110:24)
+    at async file:///Users/pavel/work/claude-code-flow/tests/integration/terminal.test.ts:297:17
+    at async assertRejects (https://deno.land/std@0.220.0/assert/assert_rejects.ts:82:7)
+    at async file:///Users/pavel/work/claude-code-flow/tests/integration/terminal.test.ts:296:3
+    at async innerWrapped (ext:cli/40_test.js:180:5)
+    at async exitSanitizer (ext:cli/40_test.js:96:27)
+    at async outerWrapped (ext:cli/40_test.js:123:14)
+[2025-06-17T04:10:03.276Z] INFO Shutting down terminal manager...
+[2025-06-17T04:10:03.276Z] INFO Shutting down terminal pool
+[2025-06-17T04:10:03.276Z] INFO Shutting down native terminal adapter
+[2025-06-17T04:10:03.276Z] INFO Terminal manager shutdown complete
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - handles spawn errors gracefully ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalManager - handles spawn errors gracefully ... [0m[32mok[0m [0m[38;5;245m(30s)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:10:03.277Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:10:03.403Z] DEBUG Native terminal initialized {"id":"native-term_mc008om5_weh0wwk1y","pid":74485,"shell":"zsh"}
+[2025-06-17T04:10:03.403Z] DEBUG Initializing terminal session {"sessionId":"session_mc008op7_q6z9p5lr5","agentId":"timeout-test"}
+[2025-06-17T04:10:03.405Z] INFO Terminal session initialized {"sessionId":"session_mc008op7_q6z9p5lr5","agentId":"timeout-test"}
+[2025-06-17T04:10:03.405Z] DEBUG Executing command {"sessionId":"session_mc008op7_q6z9p5lr5","command":"sleep 2"}
+[2025-06-17T04:10:04.407Z] ERROR Command execution failed Error: {"sessionId":"session_mc008op7_q6z9p5lr5","command":"sleep 2","error":{}}
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - handles command timeout ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminalSession - handles command timeout ... [0m[31mFAILED[0m [0m[38;5;245m(1s)[0m
+[0m[38;5;245m------- post-test output -------[0m
+[2025-06-17T04:10:04.411Z] INFO Initializing native terminal adapter {"shell":"zsh"}
+[2025-06-17T04:10:04.535Z] DEBUG Native terminal initialized {"id":"native-term_mc008phm_mtq1c27cm","pid":74493,"shell":"zsh"}
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminal - handles cross-platform commands ...[0m[38;5;245m----- post-test output end -----[0m
+[0m[38;5;245m./tests/integration/terminal.test.ts => [0mTerminal - handles cross-platform commands ... [0m[31mFAILED[0m [0m[38;5;245m(126ms)[0m
+
+[0m[1m[37m[41m ERRORS [0m
+
+./tests/integration/full-system.test.ts (uncaught error)
+[0m[1m[31merror[0m: SyntaxError: The requested module '../mocks/index.ts' does not provide an export named 'MockMCPTransport'
+  MockMCPTransport,
+[0m[31m  ^[0m
+    at [0m[1m[3m<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/full-system.test.ts[0m:[0m[33m25[0m:[0m[33m3[0m)
+This error was not caught from a test and caused the test runner to fail on the referenced module.
+It most likely originated from a dangling promise, event/timeout handler or top-level code.
+
+./tests/integration/mcp-integration.test.ts (uncaught error)
+[0m[1m[31merror[0m: SyntaxError: The requested module '../mocks/index.ts' does not provide an export named 'MockMCPTransport'
+import { MockMCPServer, MockMCPTransport } from '../mocks/index.ts';
+[0m[31m                        ^[0m
+    at [0m[1m[3m<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/mcp-integration.test.ts[0m:[0m[33m17[0m:[0m[33m25[0m)
+This error was not caught from a test and caused the test runner to fail on the referenced module.
+It most likely originated from a dangling promise, event/timeout handler or top-level code.
+
+./tests/integration/mcp.test.ts (uncaught error)
+[0m[1m[31merror[0m: SyntaxError: The requested module 'https://deno.land/std@0.208.0/testing/bdd.ts' does not provide an export named 'expect'
+import { describe, it, beforeEach, afterEach, expect } from 'https://deno.land/std@0.208.0/testing/bdd.ts';
+[0m[31m                                              ^[0m
+    at [0m[1m[3m<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/mcp.test.ts[0m:[0m[33m5[0m:[0m[33m47[0m)
+This error was not caught from a test and caused the test runner to fail on the referenced module.
+It most likely originated from a dangling promise, event/timeout handler or top-level code.
+
+Memory-Coordination Integration ... distributed memory coordination ... should coordinate memory operations across agents [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: coordinationManager.acquireResource is not a function
+        await coordinationManager.acquireResource(resourceId, entry.agentId);
+[0m[31m                                  ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m78[0m:[0m[33m35[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+    at async [0m[1m[3minnerWrapped[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m180[0m:[0m[33m5[0m)
+    at async [0m[1m[3mexitSanitizer[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m96[0m:[0m[33m27[0m)
+    at async [0m[1m[3mObject.outerWrapped [as fn][0m ([0m[36mext:cli/40_test.js[0m:[0m[33m123[0m:[0m[33m14[0m)
+    at async [0m[1m[3mTestContext.step[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m481[0m:[0m[33m22[0m)
+    at async [0m[1m[3mTestSuiteInternal.run[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m323[0m:[0m[33m7[0m)
+
+Memory-Coordination Integration ... distributed memory coordination ... should handle memory conflicts using coordination [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+      await memoryManager.storeEntry(initialEntry);
+[0m[31m                          ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m123[0m:[0m[33m27[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... distributed memory coordination ... should coordinate cross-agent memory queries [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+        await memoryManager.storeEntry(entry);
+[0m[31m                            ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m183[0m:[0m[33m29[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... resource coordination with memory backing ... should use memory to track resource allocation history [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+      await memoryManager.storeEntry(acquisitionEntry);
+[0m[31m                          ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m223[0m:[0m[33m27[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... resource coordination with memory backing ... should coordinate deadlock detection with memory logging [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: coordinationManager.acquireResource is not a function
+      await coordinationManager.acquireResource(resources[0], agents[0]);
+[0m[31m                                ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m265[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... message coordination with memory persistence ... should persist and coordinate inter-agent messages [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+      await memoryManager.storeEntry(sendEntry);
+[0m[31m                          ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m371[0m:[0m[33m27[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... message coordination with memory persistence ... should handle message delivery failures with memory logging [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+        await memoryManager.storeEntry(failureEntry);
+[0m[31m                            ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m455[0m:[0m[33m29[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... conflict resolution integration ... should resolve memory conflicts using coordination locks [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+      await memoryManager.storeEntry(baseEntry);
+[0m[31m                          ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m489[0m:[0m[33m27[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... conflict resolution integration ... should coordinate distributed memory cleanup [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: memoryManager.storeEntry is not a function
+          await memoryManager.storeEntry(entry);
+[0m[31m                              ^[0m
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m581[0m:[0m[33m31[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Memory-Coordination Integration ... performance and scalability ... should handle high-volume memory operations with coordination [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: TypeError: coordinationManager.acquireResource is not a function
+          await coordinationManager.acquireResource(resourceId, agentId);
+[0m[31m                                    ^[0m
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m664[0m:[0m[33m37[0m
+    at [0m[1m[3mArray.map[0m ([0m[36m<anonymous>[0m)
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/memory-coordination.test.ts[0m:[0m[33m660[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m16[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m33[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m178[0m:[0m[33m7[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.220.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+./tests/integration/orchestrator-terminal.test.ts (uncaught error)
+[0m[1m[31merror[0m: (in promise) Error: Logger configuration required for initialization
+          throw new Error('Logger configuration required for initialization');
+[0m[31m                ^[0m
+    at [0m[1m[3mLogger.getInstance[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m69[0m:[0m[33m17[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m288[0m:[0m[33m30[0m
+This error was not caught from a test and caused the test runner to fail on the referenced module.
+It most likely originated from a dangling promise, event/timeout handler or top-level code.
+
+./tests/integration/start-command.test.ts (uncaught error)
+[0m[1m[31merror[0m: (in promise) Error: Logger configuration required for initialization
+          throw new Error('Logger configuration required for initialization');
+[0m[31m                ^[0m
+    at [0m[1m[3mLogger.getInstance[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m69[0m:[0m[33m17[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m288[0m:[0m[33m30[0m
+This error was not caught from a test and caused the test runner to fail on the referenced module.
+It most likely originated from a dangling promise, event/timeout handler or top-level code.
+
+Start Command Backward Compatibility ... CLI imports ... should export startCommand from main CLI index [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: SyntaxError: The requested module 'https://deno.land/std@0.196.0/encoding/base64.ts' does not provide an export named 'encode' at https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/deps.ts:2:3
+      const module = await import('../../src/cli/index.ts');
+[0m[31m                     ^[0m
+    at async [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/start-compatibility.test.ts[0m:[0m[33m11[0m:[0m[33m22[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m7[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m9[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m9[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+    at async [0m[1m[3minnerWrapped[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m180[0m:[0m[33m5[0m)
+    at async [0m[1m[3mexitSanitizer[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m96[0m:[0m[33m27[0m)
+    at async [0m[1m[3mObject.outerWrapped [as fn][0m ([0m[36mext:cli/40_test.js[0m:[0m[33m123[0m:[0m[33m14[0m)
+    at async [0m[1m[3mTestContext.step[0m ([0m[36mext:cli/40_test.js[0m:[0m[33m481[0m:[0m[33m22[0m)
+    at async [0m[1m[3mTestSuiteInternal.run[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m323[0m:[0m[33m7[0m)
+
+Start Command Backward Compatibility ... CLI imports ... should export startCommand from commands/start.ts [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: Error: Logger configuration required for initialization
+          throw new Error('Logger configuration required for initialization');
+[0m[31m                ^[0m
+    at [0m[1m[3mLogger.getInstance[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m69[0m:[0m[33m17[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m288[0m:[0m[33m30[0m
+
+Start Command Backward Compatibility ... simple-commands functionality ... should handle daemon flag [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: AssertionError: Values are not equal.
+
+
+    [90m[1m[Diff][22m[39m [31m[1mActual[22m[39m / [32m[1mExpected[22m[39m
+
+
+[31m[1m-   false[22m[39m
+[32m[1m+   true[22m[39m
+
+  throw new AssertionError(message);
+[0m[31m        ^[0m
+    at [0m[1m[3massertEquals[0m ([0m[36mhttps://deno.land/std@0.224.0/assert/assert_equals.ts[0m:[0m[33m52[0m:[0m[33m9[0m)
+    at [0m[1m[3mObject.<anonymous>[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/start-compatibility.test.ts[0m:[0m[33m100[0m:[0m[33m7[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m358[0m:[0m[33m7[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m9[0m)
+    at async [0m[1m[3mTestSuiteInternal.runTest[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m346[0m:[0m[33m9[0m)
+    at async [0m[1m[3mfn[0m ([0m[36mhttps://deno.land/std@0.224.0/testing/_test_suite.ts[0m:[0m[33m316[0m:[0m[33m13[0m)
+
+Start Command Backward Compatibility ... command options preservation ... should support all original options [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: Error: Logger configuration required for initialization
+          throw new Error('Logger configuration required for initialization');
+[0m[31m                ^[0m
+    at [0m[1m[3mLogger.getInstance[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m69[0m:[0m[33m17[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m288[0m:[0m[33m30[0m
+
+Start Command Backward Compatibility ... event listeners setup ... should setup event listeners as before [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+[0m[1m[31merror[0m: Error: Logger configuration required for initialization
+          throw new Error('Logger configuration required for initialization');
+[0m[31m                ^[0m
+    at [0m[1m[3mLogger.getInstance[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m69[0m:[0m[33m17[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/src/core/logger.ts[0m:[0m[33m288[0m:[0m[33m30[0m
+
+NativeAdapter - creates and destroys terminals [0m[38;5;245m=> ./tests/integration/terminal.test.ts:45:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+NativeAdapter - handles multiple shells [0m[38;5;245m=> ./tests/integration/terminal.test.ts:68:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalPool - manages terminal lifecycle [0m[38;5;245m=> ./tests/integration/terminal.test.ts:95:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalPool - recycles terminals after use count [0m[38;5;245m=> ./tests/integration/terminal.test.ts:124:6[0m
+[0m[1m[31merror[0m: AssertionError: Values are not equal.
+
+
+    [90m[1m[Diff][22m[39m [31m[1mActual[22m[39m / [32m[1mExpected[22m[39m
+
+
+[31m[1m-   native-[31m[1mterm_mc007z7y_8uq9gagm3[1m[31m
+[22m[39m[32m[1m+   native-[32m[1mterm_mc007z7k_c1qea6zho[1m[32m
+[22m[39m
+
+  throw new AssertionError(message);
+[0m[31m        ^[0m
+    at [0m[1m[3massertEquals[0m ([0m[36mhttps://deno.land/std@0.220.0/assert/assert_equals.ts[0m:[0m[33m52[0m:[0m[33m9[0m)
+    at [0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/terminal.test.ts[0m:[0m[33m138[0m:[0m[33m3[0m
+
+TerminalSession - manages command execution [0m[38;5;245m=> ./tests/integration/terminal.test.ts:151:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalSession - handles output streaming [0m[38;5;245m=> ./tests/integration/terminal.test.ts:179:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalManager - complete workflow [0m[38;5;245m=> ./tests/integration/terminal.test.ts:213:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalManager - handles maintenance [0m[38;5;245m=> ./tests/integration/terminal.test.ts:250:6[0m
+[0m[1m[31merror[0m: Leaks detected:
+  - A child process stdin was opened during the test, but not closed during the test. Close the child process stdin by calling `proc.stdin.close()`.
+
+TerminalSession - handles command timeout [0m[38;5;245m=> ./tests/integration/terminal.test.ts:304:6[0m
+[0m[1m[31merror[0m: AssertionError: Expected error message to include "timeout", but got "Command execution failed".
+    throw new AssertionError(msg);
+[0m[31m          ^[0m
+    at [0m[1m[3massertIsError[0m ([0m[36mhttps://deno.land/std@0.220.0/assert/assert_is_error.ts[0m:[0m[33m61[0m:[0m[33m11[0m)
+    at [0m[1m[3massertRejects[0m ([0m[36mhttps://deno.land/std@0.220.0/assert/assert_rejects.ts[0m:[0m[33m94[0m:[0m[33m7[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m217[0m:[0m[33m9[0m)
+    at async [0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/terminal.test.ts[0m:[0m[33m316[0m:[0m[33m3[0m
+
+Terminal - handles cross-platform commands [0m[38;5;245m=> ./tests/integration/terminal.test.ts:330:6[0m
+[0m[1m[31merror[0m: TerminalError: Failed to execute command
+      throw new TerminalCommandError('Failed to execute command', { command, error });
+[0m[31m            ^[0m
+    at [0m[1m[3mNativeTerminal.executeCommand[0m ([0m[36mfile:///Users/pavel/work/claude-code-flow/src/terminal/adapters/native.ts[0m:[0m[33m115[0m:[0m[33m13[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m217[0m:[0m[33m9[0m)
+    at async [0m[1m[3mPromise.all (index 1)[0m
+    at async [0m[36mfile:///Users/pavel/work/claude-code-flow/tests/integration/terminal.test.ts[0m:[0m[33m338[0m:[0m[33m19[0m
+
+[0m[1m[37m[41m FAILURES [0m
+
+./tests/integration/full-system.test.ts (uncaught error)
+./tests/integration/mcp-integration.test.ts (uncaught error)
+./tests/integration/mcp.test.ts (uncaught error)
+Memory-Coordination Integration ... distributed memory coordination ... should coordinate memory operations across agents [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... distributed memory coordination ... should handle memory conflicts using coordination [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... distributed memory coordination ... should coordinate cross-agent memory queries [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... resource coordination with memory backing ... should use memory to track resource allocation history [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... resource coordination with memory backing ... should coordinate deadlock detection with memory logging [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... message coordination with memory persistence ... should persist and coordinate inter-agent messages [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... message coordination with memory persistence ... should handle message delivery failures with memory logging [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... conflict resolution integration ... should resolve memory conflicts using coordination locks [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... conflict resolution integration ... should coordinate distributed memory cleanup [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+Memory-Coordination Integration ... performance and scalability ... should handle high-volume memory operations with coordination [0m[38;5;245m=> https://deno.land/std@0.220.0/testing/_test_suite.ts:323:15[0m
+./tests/integration/orchestrator-terminal.test.ts (uncaught error)
+./tests/integration/start-command.test.ts (uncaught error)
+Start Command Backward Compatibility ... CLI imports ... should export startCommand from main CLI index [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+Start Command Backward Compatibility ... CLI imports ... should export startCommand from commands/start.ts [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+Start Command Backward Compatibility ... simple-commands functionality ... should handle daemon flag [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+Start Command Backward Compatibility ... command options preservation ... should support all original options [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+Start Command Backward Compatibility ... event listeners setup ... should setup event listeners as before [0m[38;5;245m=> https://deno.land/std@0.224.0/testing/_test_suite.ts:323:15[0m
+NativeAdapter - creates and destroys terminals [0m[38;5;245m=> ./tests/integration/terminal.test.ts:45:6[0m
+NativeAdapter - handles multiple shells [0m[38;5;245m=> ./tests/integration/terminal.test.ts:68:6[0m
+TerminalPool - manages terminal lifecycle [0m[38;5;245m=> ./tests/integration/terminal.test.ts:95:6[0m
+TerminalPool - recycles terminals after use count [0m[38;5;245m=> ./tests/integration/terminal.test.ts:124:6[0m
+TerminalSession - manages command execution [0m[38;5;245m=> ./tests/integration/terminal.test.ts:151:6[0m
+TerminalSession - handles output streaming [0m[38;5;245m=> ./tests/integration/terminal.test.ts:179:6[0m
+TerminalManager - complete workflow [0m[38;5;245m=> ./tests/integration/terminal.test.ts:213:6[0m
+TerminalManager - handles maintenance [0m[38;5;245m=> ./tests/integration/terminal.test.ts:250:6[0m
+TerminalSession - handles command timeout [0m[38;5;245m=> ./tests/integration/terminal.test.ts:304:6[0m
+Terminal - handles cross-platform commands [0m[38;5;245m=> ./tests/integration/terminal.test.ts:330:6[0m
+
+[0m[31mFAILED[0m | 1 passed (3 steps) | 17 failed (24 steps) [0m[38;5;245m(36s)[0m
+

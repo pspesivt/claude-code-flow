@@ -290,7 +290,7 @@ describe('Helpers', () => {
     });
 
     it('should clone Maps', () => {
-      const original = new Map([['a', 1], ['b', { c: 2 }]]);
+      const original = new Map<string, any>([['a', 1], ['b', { c: 2 }]]);
       const cloned = deepClone(original);
       
       assertEquals(cloned.get('a'), 1);

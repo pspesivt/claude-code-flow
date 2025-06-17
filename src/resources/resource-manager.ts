@@ -325,9 +325,9 @@ export class ResourceManager extends EventEmitter {
   private optimizer: ResourceOptimizer;
 
   // Scheduling and cleanup
-  private monitoringInterval?: NodeJS.Timeout;
-  private cleanupInterval?: NodeJS.Timeout;
-  private scalingInterval?: NodeJS.Timeout;
+  private monitoringInterval?: number;
+  private cleanupInterval?: number;
+  private scalingInterval?: number;
 
   // Performance tracking
   private metrics: ResourceManagerMetrics;
@@ -385,7 +385,7 @@ export class ResourceManager extends EventEmitter {
       this.handleResourceRelease(data);
     });
 
-    this.eventBus.on('resource:usage-update', (data) => {
+    this.eventBus.on('resource:usage-update', (data: any) => {
       this.updateResourceUsage(data.resourceId, data.usage);
     });
 
